@@ -1,0 +1,115 @@
+
+This directory is intended for PlatformIO Test Runner and project tests.
+
+Unit Testing is a software testing method by which individual units of
+source code, sets of one or more MCU program modules together with associated
+control data, usage procedures, and operating procedures, are tested to
+determine whether they are fit for use. Unit testing finds problems early
+in the development cycle.
+
+More information about PlatformIO Unit Testing:
+- https://docs.platformio.org/en/latest/advanced/unit-testing/index.html
+
+
+projects name:
+
+Hello World LED
+Serial Hello World
+Serial Command LED
+Boot Button Control
+Button Debouncing
+LED Pattern Generator
+Serial Pattern Control
+Simple EEPROM Settings
+RTC Memory Storage
+Deep Sleep with Timer
+Touch Wakeup
+Multi-Source Wakeup
+Wakeup Reason Detection
+Sleep Statistics Logger
+Power Consumption Monitor
+Internal Temperature Monitor
+Temperature Data Logger
+Serial Data Plotter
+Hall Effect Sensor
+Magnetic Field Monitor
+WiFi Scanner
+Basic WiFi Connection
+WiFi Connection Manager
+WiFi Auto-Reconnect
+WiFi Signal Monitor
+Basic Web Server
+Web LED Controller
+Web Pattern Controller
+Async Web Server
+SPIFFS Web Server
+WebSocket LED Control
+Real-Time Sensor Web
+BLE Server Basics
+BLE LED Service
+BLE Sensor Service
+BLE Pattern Service
+BLE to WiFi Bridge
+Basic OTA Update
+Web-Based OTA
+Secure OTA Updates
+Dual Core Basics
+Inter-Core Communication
+Dual Core Sensor Reading
+Core-Specific Web Server
+FreeRTOS Task Priorities
+Resource Semaphores
+Inter-Task Queues
+Task Event Groups
+FreeRTOS Software Timers
+Timer-Based System
+Watchdog Timer
+Watchdog Recovery System
+Brownout Detection
+Voltage Monitoring
+Dynamic Memory Manager
+Memory Usage Monitor
+Heap Fragmentation Analysis
+Pool-Based Memory Allocator
+Simple Garbage Collector
+Memory Leak Detector
+SPIFFS File Explorer
+Basic File Operations
+JSON Configuration System
+File-Based Data Logger
+Log File Rotation
+Simple File Compression
+LittleFS Migration
+Flash Wear Monitoring
+Configuration Backup System
+Simple Version Control
+Web-Based File Manager
+Web File Upload
+Secure File Download
+Local File Sharing Server
+Simple Key-Value Database
+Database Indexing System
+Simple Query Language
+Database Transactions
+Database Backup/Restore
+Database Replication
+Basic Authentication System
+Web Session Management
+HTTPS Web Server
+SSL Certificate Manager
+BLE Security
+Encrypted File System
+Digitally Signed OTA
+Security Audit System
+Simple Network Firewall
+API Rate Limiting
+Secure MQTT Client
+MQTT LED Control
+MQTT Sensor Publishing
+MQTT to BLE Bridge
+ESP-MESH Basics
+Mesh Message Routing
+Mesh Service Discovery
+Mesh Load Balancing
+Fault Tolerant Mesh
+Complete IoT Platform

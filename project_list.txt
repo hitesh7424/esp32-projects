@@ -1,0 +1,100 @@
+1	Hello World LED
+2	Serial Hello World
+3	Serial Command LED
+4	Boot Button Control
+5	Button Debouncing
+6	LED Pattern Generator
+7	Serial Pattern Control
+8	Simple EEPROM Settings
+9	RTC Memory Storage
+10	Deep Sleep with Timer
+11	Touch Wakeup
+12	Multi-Source Wakeup
+13	Wakeup Reason Detection
+14	Sleep Statistics Logger
+15	Power Consumption Monitor
+16	Internal Temperature Monitor
+17	Temperature Data Logger
+18	Serial Data Plotter
+19	Hall Effect Sensor
+20	Magnetic Field Monitor
+21	WiFi Scanner
+22	Basic WiFi Connection
+23	WiFi Connection Manager
+24	WiFi Auto-Reconnect
+25	WiFi Signal Monitor
+26	Basic Web Server
+27	Web LED Controller
+28	Web Pattern Controller
+29	Async Web Server
+30	SPIFFS Web Server
+31	WebSocket LED Control
+32	Real-Time Sensor Web
+33	BLE Server Basics
+34	BLE LED Service
+35	BLE Sensor Service
+36	BLE Pattern Service
+37	BLE to WiFi Bridge
+38	Basic OTA Update
+39	Web-Based OTA
+40	Secure OTA Updates
+41	Dual Core Basics
+42	Inter-Core Communication
+43	Dual Core Sensor Reading
+44	Core-Specific Web Server
+45	FreeRTOS Task Priorities
+46	Resource Semaphores
+47	Inter-Task Queues
+48	Task Event Groups
+49	FreeRTOS Software Timers
+50	Timer-Based System
+51	Watchdog Timer
+52	Watchdog Recovery System
+53	Brownout Detection
+54	Voltage Monitoring
+55	Dynamic Memory Manager
+56	Memory Usage Monitor
+57	Heap Fragmentation Analysis
+58	Pool-Based Memory Allocator
+59	Simple Garbage Collector
+60	Memory Leak Detector
+61	SPIFFS File Explorer
+62	Basic File Operations
+63	JSON Configuration System
+64	File-Based Data Logger
+65	Log File Rotation
+66	Simple File Compression
+67	LittleFS Migration
+68	Flash Wear Monitoring
+69	Configuration Backup System
+70	Simple Version Control
+71	Web-Based File Manager
+72	Web File Upload
+73	Secure File Download
+74	Local File Sharing Server
+75	Simple Key-Value Database
+76	Database Indexing System
+77	Simple Query Language
+78	Database Transactions
+79	Database Backup/Restore
+80	Database Replication
+81	Basic Authentication System
+82	Web Session Management
+83	HTTPS Web Server
+84	SSL Certificate Manager
+85	BLE Security
+86	Encrypted File System
+87	Digitally Signed OTA
+88	Security Audit System
+89	Simple Network Firewall
+90	API Rate Limiting
+91	Secure MQTT Client
+92	MQTT LED Control
+93	MQTT Sensor Publishing
+94	MQTT to BLE Bridge
+95	ESP-MESH Basics
+96	Mesh Message Routing
+97	Mesh Service Discovery
+98	Mesh Load Balancing
+99	Fault Tolerant Mesh
+100	Complete IoT Platform
