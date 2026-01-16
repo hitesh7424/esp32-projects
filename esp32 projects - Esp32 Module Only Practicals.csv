@@ -1,0 +1,101 @@
+Project #,Project Name,Description,Uses Previous Project,Next Project,Category,Phase,Remark
+1,Hello World LED,Blink built-in LED,-,2,GPIO Basics,Basic GPIO & Core Features,Not Completed
+2,Serial Hello World,"Print ""Hello ESP32"" to serial",1,3,Serial Communication,Basic GPIO & Core Features,Not Completed
+3,Serial Command LED,Control LED via serial commands,2,4,Input Handling,Basic GPIO & Core Features,Not Completed
+4,Boot Button Control,Use BOOT button to toggle LED,3,5,Digital Input,Basic GPIO & Core Features,Not Completed
+5,Button Debouncing,Implement software debouncing,4,6,Input Processing,Basic GPIO & Core Features,Not Completed
+6,LED Pattern Generator,Create light patterns on multiple GPIOs,1,7,GPIO Patterns,Basic GPIO & Core Features,Not Completed
+7,Serial Pattern Control,Change LED patterns via serial,"3, 6",8,Serial Control,Basic GPIO & Core Features,Not Completed
+8,Simple EEPROM Settings,Save favorite pattern to EEPROM,7,9,Data Storage,Basic GPIO & Core Features,Not Completed
+9,RTC Memory Storage,Store data in RTC memory across reboots,8,10,RTC Memory,Basic GPIO & Core Features,Not Completed
+10,Deep Sleep with Timer,"Put ESP32 to sleep, wake by timer",9,11,Power Management,Basic GPIO & Core Features,Not Completed
+11,Touch Wakeup,Wake from sleep via touch sensor,10,12,Touch Sensor,Basic GPIO & Core Features,Not Completed
+12,Multi-Source Wakeup,Combine timer + touch wakeup,"10, 11",13,Multiple Wake Sources,Basic GPIO & Core Features,Not Completed
+13,Wakeup Reason Detection,Detect why ESP32 woke up,12,14,System Monitoring,Basic GPIO & Core Features,Not Completed
+14,Sleep Statistics Logger,Log sleep/wake cycles to EEPROM,"8, 13",15,Data Logging,Basic GPIO & Core Features,Not Completed
+15,Power Consumption Monitor,Estimate and report power usage,14,16,Power Analysis,Basic GPIO & Core Features,Not Completed
+16,Internal Temperature Monitor,Read internal temperature sensor,2,17,Internal Sensors,Basic GPIO & Core Features,Not Completed
+17,Temperature Data Logger,Log temperature with timestamps,"8, 16",18,Sensor Logging,Basic GPIO & Core Features,Not Completed
+18,Serial Data Plotter,Output data in plotter-friendly format,17,19,Data Visualization,Basic GPIO & Core Features,Not Completed
+19,Hall Effect Sensor,Read internal hall effect sensor,16,20,Magnetic Sensors,Basic GPIO & Core Features,Not Completed
+20,Magnetic Field Monitor,Monitor magnetic field changes,"18, 19",21,Sensor Monitoring,Basic GPIO & Core Features,Not Completed
+21,WiFi Scanner,Scan and list available networks,2,22,WiFi Basics,Wireless Communication ,Not Completed
+22,Basic WiFi Connection,Connect to WiFi network,21,23,WiFi Connection,Wireless Communication ,Not Completed
+23,WiFi Connection Manager,Store multiple WiFi credentials,"8, 22",24,WiFi Management,Wireless Communication ,Not Completed
+24,WiFi Auto-Reconnect,Automatic reconnect on disconnect,23,25,Network Reliability,Wireless Communication ,Not Completed
+25,WiFi Signal Monitor,Monitor and log WiFi signal strength,"18, 22",26,Network Monitoring,Wireless Communication ,Not Completed
+26,Basic Web Server,"Host simple ""Hello World"" web page",22,27,Web Server,Wireless Communication ,Not Completed
+27,Web LED Controller,Control LED via web interface,"3, 26",28,Web Control,Wireless Communication ,Not Completed
+28,Web Pattern Controller,Control LED patterns via web,"7, 27",29,Advanced Web Control,Wireless Communication ,Not Completed
+29,Async Web Server,Implement asynchronous web server,28,30,Async Programming,Wireless Communication ,Not Completed
+30,SPIFFS Web Server,Serve files from SPIFFS filesystem,29,31,File Serving,Wireless Communication ,Not Completed
+31,WebSocket LED Control,Real-time LED control via WebSocket,"27, 29",32,Real-time Communication,Wireless Communication ,Not Completed
+32,Real-Time Sensor Web,Stream sensor data via WebSocket,"18, 31",33,Real-time Data,Wireless Communication ,Not Completed
+33,BLE Server Basics,Create simple BLE server,2,34,BLE Basics,Wireless Communication ,Not Completed
+34,BLE LED Service,Control LED via BLE characteristic,"3, 33",35,BLE Control,Wireless Communication ,Not Completed
+35,BLE Sensor Service,Read sensors via BLE,"16, 34",36,BLE Sensors,Wireless Communication ,Not Completed
+36,BLE Pattern Service,Control LED patterns via BLE,"7, 35",37,BLE Patterns,Wireless Communication ,Not Completed
+37,BLE to WiFi Bridge,Relay BLE commands to web server,"28, 36",38,Protocol Bridge,Wireless Communication ,Not Completed
+38,Basic OTA Update,Implement simple OTA update,22,39,OTA Updates,Wireless Communication ,Not Completed
+39,Web-Based OTA,OTA updates via web interface,"29, 38",40,Web OTA,Wireless Communication ,Not Completed
+40,Secure OTA Updates,Add authentication to OTA,39,41,Security,Wireless Communication ,Not Completed
+41,Dual Core Basics,Run tasks on both cores,1,42,Multi-core,Advanced System Features ,Not Completed
+42,Inter-Core Communication,Pass data between cores,41,43,Core Communication,Advanced System Features ,Not Completed
+43,Dual Core Sensor Reading,"Read sensors on one core, process on other","16, 42",44,Multi-core Sensors,Advanced System Features ,Not Completed
+44,Core-Specific Web Server,"Web server on one core, sensors on other","29, 43",45,Multi-core Web,Advanced System Features ,Not Completed
+45,FreeRTOS Task Priorities,Experiment with task priorities,44,46,Task Management,Advanced System Features ,Not Completed
+46,Resource Semaphores,Protect shared resources with semaphores,45,47,Synchronization,Advanced System Features ,Not Completed
+47,Inter-Task Queues,Pass data between tasks using queues,46,48,Data Passing,Advanced System Features ,Not Completed
+48,Task Event Groups,Synchronize tasks with event groups,47,49,Task Sync,Advanced System Features ,Not Completed
+49,FreeRTOS Software Timers,Implement software timers,48,50,Timers,Advanced System Features ,Not Completed
+50,Timer-Based System,Replace delay() with timer callbacks,"6, 49",51,System Timers,Advanced System Features ,Not Completed
+51,Watchdog Timer,Implement hardware watchdog,50,52,System Monitoring,Advanced System Features ,Not Completed
+52,Watchdog Recovery System,Save state before watchdog reset,"8, 51",53,Fault Recovery,Advanced System Features ,Not Completed
+53,Brownout Detection,Detect and handle brownout events,52,54,Power Management,Advanced System Features ,Not Completed
+54,Voltage Monitoring,Monitor internal voltage levels,53,55,System Health,Advanced System Features ,Not Completed
+55,Dynamic Memory Manager,Implement custom memory allocation,45,56,Memory Management,Advanced System Features ,Not Completed
+56,Memory Usage Monitor,Monitor and report memory usage,"18, 55",57,Memory Monitoring,Advanced System Features ,Not Completed
+57,Heap Fragmentation Analysis,Analyze and report heap status,56,58,Memory Analysis,Advanced System Features ,Not Completed
+58,Pool-Based Memory Allocator,Implement fixed-size memory pools,55,59,Advanced Memory,Advanced System Features ,Not Completed
+59,Simple Garbage Collector,Basic reference counting system,58,60,Memory Management,Advanced System Features ,Not Completed
+60,Memory Leak Detector,Detect and report memory leaks,"57, 59",61,Debugging,Advanced System Features ,Not Completed
+61,SPIFFS File Explorer,List files in SPIFFS via serial,2,62,File System,Storage & File Systems,Not Completed
+62,Basic File Operations,"Create, read, write, delete files",61,63,File Management,Storage & File Systems,Not Completed
+63,JSON Configuration System,Store settings in JSON files,"8, 62",64,Configuration,Storage & File Systems,Not Completed
+64,File-Based Data Logger,Log sensor data to files,"17, 63",65,Data Logging,Storage & File Systems,Not Completed
+65,Log File Rotation,Implement log file rotation,64,66,Log Management,Storage & File Systems,Not Completed
+66,Simple File Compression,Basic run-length encoding compression,65,67,Compression,Storage & File Systems,Not Completed
+67,LittleFS Migration,Convert from SPIFFS to LittleFS,66,68,File Systems,Storage & File Systems,Not Completed
+68,Flash Wear Monitoring,Monitor and report flash wear,67,69,Hardware Monitoring,Storage & File Systems,Not Completed
+69,Configuration Backup System,Backup/restore configurations,63,70,Backup Systems,Storage & File Systems,Not Completed
+70,Simple Version Control,Basic file versioning system,69,71,Version Control,Storage & File Systems,Not Completed
+71,Web-Based File Manager,Manage files via web interface,"29, 62",72,Web File Management,Storage & File Systems,Not Completed
+72,Web File Upload,Upload files via web interface,71,73,File Upload,Storage & File Systems,Not Completed
+73,Secure File Download,Authenticated file downloads,72,74,Security,Storage & File Systems,Not Completed
+74,Local File Sharing Server,Share files over local network,"29, 73",75,File Sharing,Storage & File Systems,Not Completed
+75,Simple Key-Value Database,Implement key-value store in flash,70,76,Database,Storage & File Systems,Not Completed
+76,Database Indexing System,Add indexes to key-value store,75,77,Database Optimization,Storage & File Systems,Not Completed
+77,Simple Query Language,Basic query system for database,76,78,Database Queries,Storage & File Systems,Not Completed
+78,Database Transactions,Atomic operations for database,77,79,Database Transactions,Storage & File Systems,Not Completed
+79,Database Backup/Restore,Backup and restore database,"69, 78",80,Database Management,Storage & File Systems,Not Completed
+80,Database Replication,Sync database between ESP32s,"37, 79",81,Database Sync,Storage & File Systems,Not Completed
+81,Basic Authentication System,Username/password authentication,29,82,Security,Security & Networking,Not Completed
+82,Web Session Management,Implement session cookies,81,83,Session Management,Security & Networking,Not Completed
+83,HTTPS Web Server,Secure web server with SSL,82,84,Encryption,Security & Networking,Not Completed
+84,SSL Certificate Manager,Manage SSL certificates in SPIFFS,83,85,Certificate Management,Security & Networking,Not Completed
+85,BLE Security,Add pairing/bonding to BLE,36,86,BLE Security,Security & Networking,Not Completed
+86,Encrypted File System,Encrypt files in SPIFFS/LittleFS,62,87,File Encryption,Security & Networking,Not Completed
+87,Digitally Signed OTA,Verify OTA updates with digital signatures,"40, 86",88,Secure Updates,Security & Networking,Not Completed
+88,Security Audit System,Log security events and attempts,"64, 81",89,Security Monitoring,Security & Networking,Not Completed
+89,Simple Network Firewall,Basic IP/port filtering,29,90,Network Security,Security & Networking,Not Completed
+90,API Rate Limiting,Limit requests per client,89,91,API Security,Security & Networking,Not Completed
+91,Secure MQTT Client,MQTT with TLS encryption,83,92,Secure MQTT,Security & Networking,Not Completed
+92,MQTT LED Control,Control LED via MQTT messages,"7, 91",93,MQTT Control,Security & Networking,Not Completed
+93,MQTT Sensor Publishing,Publish sensor data via MQTT,"16, 92",94,MQTT Data,Security & Networking,Not Completed
+94,MQTT to BLE Bridge,Convert MQTT messages to BLE commands,"37, 93",95,Protocol Bridge,Security & Networking,Not Completed
+95,ESP-MESH Basics,Create simple mesh network,22,96,Mesh Networking,Security & Networking,Not Completed
+96,Mesh Message Routing,Route messages through mesh network,95,97,Mesh Routing,Security & Networking,Not Completed
+97,Mesh Service Discovery,Discover services in mesh network,96,98,Service Discovery,Security & Networking,Not Completed
+98,Mesh Load Balancing,Distribute load across mesh nodes,97,99,Load Balancing,Security & Networking,Not Completed
+99,Fault Tolerant Mesh,Handle node failures in mesh,98,100,Fault Tolerance,Security & Networking,Not Completed
+100,Complete IoT Platform,Integrates ALL previous projects,"29,36,93,99,40,88,64,44",-,Final Project,Security & Networking,Not Completed
